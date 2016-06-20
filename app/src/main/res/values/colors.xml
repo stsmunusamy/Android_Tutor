@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#016257</color>
+    <color name="colorAccent">#1de9b6</color>
+
+    <color name="underline_default_color">#CCCCCC</color>
+    <color name="underline_selected_color">#000</color>
+    <color name="hintColor">#CCCCCC</color>
+    <color name="textColor">#000</color>
+
+    <color name="blackTransparent55">#55000000</color>
+    <color name="blackTransparent">#00000000</color>
+    <color name="background_material_light">#fafafa</color>
+
+</resources>

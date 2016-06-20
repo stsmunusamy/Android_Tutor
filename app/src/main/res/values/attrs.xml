@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- CodeInput Attrs -->
+  <declare-styleable name="core_area">
+    <attr name="underline_color"
+        format="color"/>
+    <attr name="underline_selected_color"
+        format="color"/>
+    <attr name="hint_color"
+        format="color"/>
+    <attr name="text_color"
+        format="color"/>
+    <attr name="hint_text"
+        format="string"/>
+    <attr name="codes"
+        format="integer"/>
+  </declare-styleable>
+
+
+    <!-- Lock Screen Attrs -->
+    <declare-styleable name="MaterialLockView">
+        <attr name="LOCK_COLOR" format="color"/>
+        <attr name="WRONG_COLOR" format="color"/>
+        <attr name="CORRECT_COLOR" format="color"/>
+    </declare-styleable>
+
+
+    <!-- Arc FAB menu Attrs -->
+    <declare-styleable name="ArcMenu">
+        <attr name="menu_scr" format="reference"/>
+        <attr name="menu_color" format="reference|color"/>
+        <attr name="menu_ripple_color" format="color"/>
+        <attr name="menu_radius" format="dimension"/>
+        <attr name="menu_margin" format="dimension"/>
+        <attr name="menu_open" format="enum">
+            <enum name="arc_left" value="0"/>
+            <enum name="arc_right" value="1"/>
+        </attr>
+        <attr name="menu_animation_time" format="integer"/>
+        <attr name="menu_elevation" format="dimension"/>
+    </declare-styleable>
+
+</resources>
