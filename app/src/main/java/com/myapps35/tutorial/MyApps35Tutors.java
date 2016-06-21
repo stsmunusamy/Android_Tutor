@@ -39,6 +39,7 @@ public class MyApps35Tutors extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
@@ -54,11 +55,13 @@ public class MyApps35Tutors extends AppCompatActivity
 
     private void toolBarInit()
     {
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.mToolbar);
 
         setSupportActionBar(toolbar);
 
         ActionBar actionBar = getSupportActionBar();
+
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         cToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.mCollapsing_toolbar);
@@ -79,10 +82,12 @@ public class MyApps35Tutors extends AppCompatActivity
                 cToolbarLayout.setStatusBarScrimColor(palette.getMutedColor(R.attr.colorPrimaryDark));
             }
         });
+
     }
 
     private void initialize()
     {
+
         fabOverlay = (FrameLayout) findViewById(R.id.fabOverlay);
 
         arcMenu = (ArcMenu) findViewById(R.id.arcMenu);
@@ -91,10 +96,12 @@ public class MyApps35Tutors extends AppCompatActivity
         fab2 = (FloatingActionButton) findViewById(R.id.fab2);
         fab3 = (FloatingActionButton) findViewById(R.id.fab3);
         fab4 = (FloatingActionButton) findViewById(R.id.fab4);
+
     }
 
     private void setonClickListener()
     {
+
         ((CardView) findViewById(R.id.btnMusicPlayer)).setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -122,21 +129,31 @@ public class MyApps35Tutors extends AppCompatActivity
             }
         });
 
-//        arcMenu.setOnClickListener(new View.OnClickListener()
-//        {
-//            @Override
-//            public void onClick(View v)
-//            {
-//                if(arcMenu.isMenuOpened())
-//                {
-//                    fabOverlay.setBackgroundColor(getResources().getColor(R.color.blackTransparent55));
-//                }
-//                else
-//                {
-//                    fabOverlay.setBackgroundColor(getResources().getColor(R.color.blackTransparent));
-//                }
-//            }
-//        });
+        ((CardView) findViewById(R.id.btnWifiChat)).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(getBaseContext(), CustomLockScreen.class));
+            }
+        });
+
+        arcMenu.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                if(arcMenu.isMenuOpened())
+                {
+                    fabOverlay.setBackgroundColor(getResources().getColor(R.color.blackTransparent55));
+                }
+                else
+                {
+                    fabOverlay.setBackgroundColor(getResources().getColor(R.color.blackTransparent));
+                }
+            }
+        });
+
     }
 
 }
