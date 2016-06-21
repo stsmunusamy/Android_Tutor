@@ -20,6 +20,7 @@ import com.myapps35.tutorial.LockScreenDemo.CustomLockScreen;
 import com.myapps35.tutorial.MusicPlayer.MusicActivity;
 import com.myapps35.tutorial.Push_Notification_Using_GCM.RegisterActivity;
 import com.myapps35.tutorial.Utils.FabArcMenu.ArcMenu;
+import com.myapps35.tutorial.WifiChat.MainActivity_Wifi_chat;
 
 public class MyApps35Tutors extends AppCompatActivity
 {
@@ -134,7 +135,7 @@ public class MyApps35Tutors extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                startActivity(new Intent(getBaseContext(), CustomLockScreen.class));
+                startActivity(new Intent(getBaseContext(), MainActivity_Wifi_chat.class));
             }
         });
 

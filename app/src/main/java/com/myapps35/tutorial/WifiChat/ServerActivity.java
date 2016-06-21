@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
+import com.myapps35.tutorial.R;
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
