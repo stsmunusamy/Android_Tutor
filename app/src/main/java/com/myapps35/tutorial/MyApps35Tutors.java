@@ -16,6 +16,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
 
+import com.myapps35.tutorial.CustomLoadingAnimation.CustomAnimationLoadingActivity;
 import com.myapps35.tutorial.LockScreenDemo.CustomLockScreen;
 import com.myapps35.tutorial.MusicPlayer.MusicActivity;
 import com.myapps35.tutorial.Push_Notification_Using_GCM.RegisterActivity;
@@ -136,6 +137,15 @@ public class MyApps35Tutors extends AppCompatActivity
             public void onClick(View v)
             {
                 startActivity(new Intent(getBaseContext(), MainActivity_Wifi_chat.class));
+            }
+        });
+
+        ((CardView) findViewById(R.id.btnCustomLoadingBar)).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(getBaseContext(), CustomAnimationLoadingActivity.class));
             }
         });
 
