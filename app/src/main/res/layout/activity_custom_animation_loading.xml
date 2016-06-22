@@ -32,7 +32,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallPulse"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -55,7 +55,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallGridPulse"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -78,7 +78,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallClipRotate"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -109,7 +109,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallClipRotatePulse"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -132,7 +132,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/SquareSpin"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -155,7 +155,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallClipRotateMultiple"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -186,7 +186,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallPulseRise"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -209,7 +209,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallRotate"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -232,7 +232,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/CubeTransition"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -263,7 +263,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallZigZag"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -286,7 +286,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallZigZagDeflect"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -309,7 +309,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallTrianglePath"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -340,7 +340,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallScale"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -363,7 +363,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/LineScale"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -386,7 +386,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/LineScaleParty"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -417,7 +417,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallScaleMultiple"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -440,7 +440,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallPulseSync"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -463,7 +463,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallBeat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -494,7 +494,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/LineScalePulseOut"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -517,7 +517,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/LineScalePulseOutRapid"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -540,7 +540,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallScaleRipple"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -571,7 +571,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallScaleRippleMultiple"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -594,7 +594,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallSpinFadeLoader"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -617,7 +617,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/LineSpinFadeLoader"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -648,7 +648,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/TriangleSkewSpin"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -671,7 +671,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/Pacman"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -694,7 +694,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/BallGridBeat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
@@ -725,7 +725,7 @@
                     android:gravity="center">
 
                     <com.wang.avi.AVLoadingIndicatorView
-                        android:id="@+id/avloadingIndicatorView"
+                        android:id="@+id/SemiCircleSpin"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
