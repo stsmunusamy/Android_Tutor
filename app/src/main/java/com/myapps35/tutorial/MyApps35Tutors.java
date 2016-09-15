@@ -14,6 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.FrameLayout;
 
+import com.myapps35.tutorial.BottomSheet.BottomSheetActivity;
 import com.myapps35.tutorial.CustomLoadingAnimation.CustomAnimationLoadingActivity;
 import com.myapps35.tutorial.LockScreenDemo.CustomLockScreen;
 import com.myapps35.tutorial.MusicPlayer.MusicActivity;
@@ -28,8 +29,6 @@ public class MyApps35Tutors extends AppCompatActivity
 
     private CollapsingToolbarLayout cToolbarLayout;
 
-    private FrameLayout fabOverlay;
-
     private ArcMenu arcMenu;
 
     private FloatingActionButton fab1;
@@ -41,7 +40,6 @@ public class MyApps35Tutors extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
-
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
@@ -51,7 +49,6 @@ public class MyApps35Tutors extends AppCompatActivity
         initialize();
 
         setonClickListener();
-
     }
 
 
@@ -89,8 +86,6 @@ public class MyApps35Tutors extends AppCompatActivity
 
     private void initialize()
     {
-
-        fabOverlay = (FrameLayout) findViewById(R.id.fabOverlay);
 
         arcMenu = (ArcMenu) findViewById(R.id.arcMenu);
 
@@ -159,6 +154,16 @@ public class MyApps35Tutors extends AppCompatActivity
             }
         });
 
+        ((CardView) findViewById(R.id.btnBottomSheetExample)).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(getBaseContext(), BottomSheetActivity.class));
+            }
+        });
+
+
 
         arcMenu.setOnClickListener(new View.OnClickListener()
         {
@@ -167,10 +172,10 @@ public class MyApps35Tutors extends AppCompatActivity
             {
                 if(arcMenu.isMenuOpened())
                 {
-                    fabOverlay.setBackgroundColor(getResources().getColor(R.color.blackTransparent55));
+                    arcMenu.setBackgroundColor(getResources().getColor(R.color.blackTransparent55));
                 } else
                 {
-                    fabOverlay.setBackgroundColor(getResources().getColor(R.color.blackTransparent));
+                    arcMenu.setBackgroundColor(getResources().getColor(R.color.blackTransparent));
                 }
             }
         });

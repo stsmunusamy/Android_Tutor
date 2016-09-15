@@ -61,6 +61,8 @@
 
         <activity android:name=".WifiPrinter.WifiPrinterActivity1">
         </activity>
+        <activity android:name=".BottomSheet.BottomSheetActivity">
+        </activity>
     </application>
 
 </manifest>
