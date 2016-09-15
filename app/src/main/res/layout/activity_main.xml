@@ -111,7 +111,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/adele"/>
+                            android:src="@drawable/adele" tools:ignore="ContentDescription"/>
 
                     </LinearLayout>
 
@@ -124,7 +124,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Music Player"
+                            android:text="@string/music_player"
                             android:textSize="20sp" />
 
                         <TextView
@@ -159,7 +159,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/adele"/>
+                            android:src="@drawable/adele" tools:ignore="ContentDescription"/>
 
                     </LinearLayout>
 
@@ -172,7 +172,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="GCM"
+                            android:text="@string/gcm"
                             android:textSize="20sp" />
 
                         <TextView
@@ -207,7 +207,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/adele"/>
+                            android:src="@drawable/adele" tools:ignore="ContentDescription"/>
 
                     </LinearLayout>
 
@@ -220,7 +220,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Pattern Lock"
+                            android:text="@string/pattern_lock"
                             android:textSize="20sp" />
 
                         <TextView
@@ -255,7 +255,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/adele"/>
+                            android:src="@drawable/adele" tools:ignore="ContentDescription"/>
 
                     </LinearLayout>
 
@@ -268,7 +268,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Wifi Chat"
+                            android:text="@string/wifi_chat"
                             android:textSize="20sp" />
 
                         <TextView
@@ -303,7 +303,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/adele"/>
+                            android:src="@drawable/adele" tools:ignore="ContentDescription"/>
 
                     </LinearLayout>
 
@@ -316,13 +316,61 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Custom Loading Progress Bar"
+                            android:text="@string/custom_loading_progress_bar"
                             android:textSize="20sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/already_registered"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/btnWifiPrinting"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="55dp"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/adele" tools:ignore="ContentDescription"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/wifi_printer"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/printing_text_using_printer_via_wifi"
                             android:textSize="15sp" />
 
                     </LinearLayout>

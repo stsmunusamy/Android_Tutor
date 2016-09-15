@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
           package="com.myapps35.tutorial">
-
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
-    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <permission
         android:name="com.myapps35.tutorial.permission.C2D_MESSAGE"
         android:protectionLevel="signature"/>
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="com.myapps35.tutorial.permission.C2D_MESSAGE"/>
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -39,6 +39,7 @@
         <activity android:name=".WifiChat.MainActivity_Wifi_chat"/>
         <activity android:name=".WifiChat.ServerActivity"/>
         <activity android:name=".WifiChat.ClientActivity"/>
+        <activity android:name=".CustomLoadingAnimation.CustomAnimationLoadingActivity"/>
 
         <receiver
             android:name="com.google.android.gcm.GCMBroadcastReceiver"
@@ -54,9 +55,11 @@
             </intent-filter>
         </receiver>
 
-        <service android:name=".Push_Notification_Using_GCM.GCMIntentService"/>
+        <service
+            android:name=".Push_Notification_Using_GCM.GCMIntentService"
+            tools:ignore="InnerclassSeparator"/>
 
-        <activity android:name=".CustomLoadingAnimation.CustomAnimationLoadingActivity">
+        <activity android:name=".WifiPrinter.WifiPrinterActivity1">
         </activity>
     </application>
 

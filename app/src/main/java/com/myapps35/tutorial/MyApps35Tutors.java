@@ -3,7 +3,6 @@ package com.myapps35.tutorial;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
@@ -13,15 +12,16 @@ import android.support.v7.graphics.Palette;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Button;
 import android.widget.FrameLayout;
 
 import com.myapps35.tutorial.CustomLoadingAnimation.CustomAnimationLoadingActivity;
 import com.myapps35.tutorial.LockScreenDemo.CustomLockScreen;
 import com.myapps35.tutorial.MusicPlayer.MusicActivity;
 import com.myapps35.tutorial.Push_Notification_Using_GCM.RegisterActivity;
+import com.myapps35.tutorial.R;
 import com.myapps35.tutorial.Utils.FabArcMenu.ArcMenu;
 import com.myapps35.tutorial.WifiChat.MainActivity_Wifi_chat;
+
 
 public class MyApps35Tutors extends AppCompatActivity
 {
@@ -149,6 +149,17 @@ public class MyApps35Tutors extends AppCompatActivity
             }
         });
 
+
+        ((CardView) findViewById(R.id.btnWifiPrinting)).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(getBaseContext(), CustomAnimationLoadingActivity.class));
+            }
+        });
+
+
         arcMenu.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -157,8 +168,7 @@ public class MyApps35Tutors extends AppCompatActivity
                 if(arcMenu.isMenuOpened())
                 {
                     fabOverlay.setBackgroundColor(getResources().getColor(R.color.blackTransparent55));
-                }
-                else
+                } else
                 {
                     fabOverlay.setBackgroundColor(getResources().getColor(R.color.blackTransparent));
                 }

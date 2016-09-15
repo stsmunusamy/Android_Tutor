@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context="com.myapps35.tutorial.CustomLoadingAnimation.CustomAnimationLoadingActivity">
+    tools:context=".CustomLoadingAnimation.CustomAnimationLoadingActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -717,8 +718,9 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:weightSum="1"
                     android:background="@drawable/progress_bar_bg"
                     android:layout_weight="1"
                     android:orientation="vertical"
@@ -736,6 +738,57 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="SemiCircleSpin" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <com.leo.simplearcloader.SimpleArcLoader
+                        android:visibility="visible"
+                        android:id="@+id/loader"
+                        android:layout_centerInParent="true"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        custom:arc_style="simple_arc"
+                        custom:arc_speed="medium"
+                        custom:arc_margin="3dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SimpleArcLoader" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <com.cleveroad.androidmanimation.LoadingAnimationView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/animation"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="16dp"
+                        app:lav_backgroundColor="@android:color/black"
+                        app:lav_firstColor="@color/colorPrimary"
+                        app:lav_secondColor="@color/colorAccent"
+                        app:lav_thirdColor="@color/colorPrimaryDark"
+                        app:lav_fourthColor="@color/textColor"
+                        app:lav_speedCoefficient="1.0"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Boot Animation View" />
 
                 </LinearLayout>
 
