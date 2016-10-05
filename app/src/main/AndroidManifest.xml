@@ -63,6 +63,8 @@
         </activity>
         <activity android:name=".BottomSheet.BottomSheetActivity">
         </activity>
+        <activity android:name=".AndroidExpriment.AndroidExprimentActivity">
+        </activity>
     </application>
 
 </manifest>
