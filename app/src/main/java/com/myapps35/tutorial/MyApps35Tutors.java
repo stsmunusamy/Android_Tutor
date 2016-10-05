@@ -20,6 +20,7 @@ import com.myapps35.tutorial.LockScreenDemo.CustomLockScreen;
 import com.myapps35.tutorial.MusicPlayer.MusicActivity;
 import com.myapps35.tutorial.Push_Notification_Using_GCM.RegisterActivity;
 import com.myapps35.tutorial.R;
+import com.myapps35.tutorial.Simple_Fingure_Gesture.SimpleGestureActivity;
 import com.myapps35.tutorial.Utils.FabArcMenu.ArcMenu;
 import com.myapps35.tutorial.WifiChat.MainActivity_Wifi_chat;
 
@@ -93,6 +94,15 @@ public class MyApps35Tutors extends AppCompatActivity
         fab2 = (FloatingActionButton) findViewById(R.id.fab2);
         fab3 = (FloatingActionButton) findViewById(R.id.fab3);
         fab4 = (FloatingActionButton) findViewById(R.id.fab4);
+
+        fab1.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(MyApps35Tutors.this, SimpleGestureActivity.class));
+            }
+        });
 
     }
 
