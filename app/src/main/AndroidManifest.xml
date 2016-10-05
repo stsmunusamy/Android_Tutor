@@ -63,7 +63,7 @@
         </activity>
         <activity android:name=".BottomSheet.BottomSheetActivity">
         </activity>
-        <activity android:name=".AndroidExpriment.AndroidExprimentActivity">
+        <activity android:name=".Simple_Fingure_Gesture.SimpleGestureActivity">
         </activity>
     </application>
 

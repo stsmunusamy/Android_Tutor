@@ -1,11 +1,11 @@
-package com.myapps35.tutorial.AndroidExpriment;
+package com.myapps35.tutorial.Simple_Fingure_Gesture;
 
 import android.app.Activity;
 import android.os.Bundle;
 
 import com.myapps35.tutorial.R;
 
-public class AndroidExprimentActivity extends Activity
+public class SimpleGestureActivity extends Activity
 {
 
     @Override
