@@ -24,7 +24,7 @@
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed"
-                android:background="@drawable/adele"
+                android:background="@mipmap/adele"
                 app:layout_collapseMode="parallax"
                 tools:ignore="ContentDescription"/>
 
@@ -111,7 +111,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/adele" tools:ignore="ContentDescription"/>
+                            android:src="@mipmap/adele" tools:ignore="ContentDescription"/>
 
                     </LinearLayout>
 
@@ -159,7 +159,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/adele" tools:ignore="ContentDescription"/>
+                            android:src="@mipmap/adele" tools:ignore="ContentDescription"/>
 
                     </LinearLayout>
 
@@ -207,7 +207,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/adele" tools:ignore="ContentDescription"/>
+                            android:src="@mipmap/adele" tools:ignore="ContentDescription"/>
 
                     </LinearLayout>
 
@@ -255,7 +255,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/adele" tools:ignore="ContentDescription"/>
+                            android:src="@mipmap/adele" tools:ignore="ContentDescription"/>
 
                     </LinearLayout>
 
@@ -303,7 +303,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/adele" tools:ignore="ContentDescription"/>
+                            android:src="@mipmap/adele" tools:ignore="ContentDescription"/>
 
                     </LinearLayout>
 
@@ -351,7 +351,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/adele" tools:ignore="ContentDescription"/>
+                            android:src="@mipmap/adele" tools:ignore="ContentDescription"/>
 
                     </LinearLayout>
 
@@ -399,7 +399,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/adele" tools:ignore="ContentDescription"/>
+                            android:src="@mipmap/adele" tools:ignore="ContentDescription"/>
 
                     </LinearLayout>
 
@@ -437,31 +437,31 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="20dp"
-        app:menu_scr="@drawable/adele"
+        app:menu_scr="@mipmap/adele"
         app:menu_open="arc_left">
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab1"
             android:layout_width="wrap_content"
-            android:src="@drawable/adele"
+            android:src="@mipmap/gesture_icon"
             android:layout_height="wrap_content" />
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab2"
             android:layout_width="wrap_content"
-            android:src="@drawable/adele"
+            android:src="@mipmap/fb"
             android:layout_height="wrap_content" />
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab3"
             android:layout_width="wrap_content"
-            android:src="@drawable/adele"
+            android:src="@mipmap/gp"
             android:layout_height="wrap_content" />
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab4"
             android:layout_width="wrap_content"
-            android:src="@drawable/adele"
+            android:src="@mipmap/tw"
             android:layout_height="wrap_content" />
 
     </com.myapps35.tutorial.Utils.FabArcMenu.ArcMenu>

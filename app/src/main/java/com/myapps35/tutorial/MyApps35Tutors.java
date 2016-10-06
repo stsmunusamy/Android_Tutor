@@ -68,7 +68,7 @@ public class MyApps35Tutors extends AppCompatActivity
 
         cToolbarLayout.setTitle("Welcome");
 
-        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.adele);
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.adele);
 
         Palette.from(bitmap).generate(new Palette.PaletteAsyncListener()
         {
