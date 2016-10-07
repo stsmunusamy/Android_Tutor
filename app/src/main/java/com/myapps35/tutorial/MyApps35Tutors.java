@@ -16,9 +16,9 @@ import android.widget.FrameLayout;
 
 import com.myapps35.tutorial.BottomSheet.BottomSheetActivity;
 import com.myapps35.tutorial.CustomLoadingAnimation.CustomAnimationLoadingActivity;
+import com.myapps35.tutorial.Facebook_Integration.FacebookSinginActivity;
 import com.myapps35.tutorial.LockScreenDemo.CustomLockScreen;
 import com.myapps35.tutorial.MusicPlayer.MusicActivity;
-import com.myapps35.tutorial.Push_Notification_Using_GCM.RegisterActivity;
 import com.myapps35.tutorial.R;
 import com.myapps35.tutorial.Simple_Fingure_Gesture.SimpleGestureActivity;
 import com.myapps35.tutorial.Utils.FabArcMenu.ArcMenu;
@@ -60,10 +60,6 @@ public class MyApps35Tutors extends AppCompatActivity
 
         setSupportActionBar(toolbar);
 
-        ActionBar actionBar = getSupportActionBar();
-
-        actionBar.setDisplayHomeAsUpEnabled(true);
-
         cToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.mCollapsing_toolbar);
 
         cToolbarLayout.setTitle("Welcome");
@@ -104,6 +100,15 @@ public class MyApps35Tutors extends AppCompatActivity
             }
         });
 
+        fab2.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(MyApps35Tutors.this, FacebookSinginActivity.class));
+            }
+        });
+
     }
 
     private void setonClickListener()
@@ -115,15 +120,6 @@ public class MyApps35Tutors extends AppCompatActivity
             public void onClick(View v)
             {
                 startActivity(new Intent(getBaseContext(), MusicActivity.class));
-            }
-        });
-
-        ((CardView) findViewById(R.id.btnGcm)).setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                startActivity(new Intent(getBaseContext(), RegisterActivity.class));
             }
         });
 

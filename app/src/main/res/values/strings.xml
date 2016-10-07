@@ -1,5 +1,13 @@
 <resources>
+
     <string name="app_name">myApps35 Tutors</string>
+
+    <string name="facebook_app_id">563646337165868</string>
+
+    // if your App ID is 1234567, you should use fb1234567
+    <string name="fb_login_protocol_scheme">fb563646337165868</string>
+
+
     <string name="hello">Hello World, AndroidBuildingMusicPlayerActivity!</string>
     <string name="title_music_main">MainActivity</string>
 

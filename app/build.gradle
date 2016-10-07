@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.myapps35.tutorial"
-        minSdkVersion 17
+        minSdkVersion 15
         versionCode 1
         versionName "1.0"
     }
@@ -33,4 +33,7 @@ dependencies {
     compile 'com.cleveroad:androidmanimation:0.9.1'
     compile 'com.android.support:support-v4:23.3.0'
     compile 'com.android.support:design:23.2.0'
+
+    // facebook login lib
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
 }
