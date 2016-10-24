@@ -50,4 +50,12 @@
     <string name="wifi_chat">Wifi Chat</string>
     <string name="custom_loading_progress_bar">Custom Loading Progress Bar</string>
     <string name="method_1">Method 1</string>
+    <string name="file_sharing_via_intent">File Sharing Via Intent</string>
+    <string name="create_intent_get_file_from_internal_external_drive_via_intent">
+        <![CDATA[Create intent & get file from internal/external/drive via intent]]></string>
+    <string name="image_from_gallery">Image From Gallery</string>
+    <string name="image_from_devices">Image from Devices</string>
+    <string name="image_by_camera">Image by Camera</string>
+    <string name="files_from_sdcard">Files From SdCard</string>
+    <string name="files_from_device">Files from Device</string>
 </resources>

@@ -17,6 +17,7 @@ import android.widget.FrameLayout;
 import com.myapps35.tutorial.BottomSheet.BottomSheetActivity;
 import com.myapps35.tutorial.CustomLoadingAnimation.CustomAnimationLoadingActivity;
 import com.myapps35.tutorial.Facebook_Integration.FacebookSinginActivity;
+import com.myapps35.tutorial.FileSharingViaIntent.FileSharingActivity;
 import com.myapps35.tutorial.LockScreenDemo.CustomLockScreen;
 import com.myapps35.tutorial.MusicPlayer.MusicActivity;
 import com.myapps35.tutorial.R;
@@ -109,6 +110,24 @@ public class MyApps35Tutors extends AppCompatActivity
             }
         });
 
+        fab3.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+
+            }
+        });
+
+        fab4.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+
+            }
+        });
+
     }
 
     private void setonClickListener()
@@ -166,6 +185,15 @@ public class MyApps35Tutors extends AppCompatActivity
             public void onClick(View v)
             {
                 startActivity(new Intent(getBaseContext(), BottomSheetActivity.class));
+            }
+        });
+
+        ((CardView) findViewById(R.id.btnFileSharing)).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(getBaseContext(), FileSharingActivity.class));
             }
         });
 

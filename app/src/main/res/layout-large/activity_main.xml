@@ -478,11 +478,10 @@
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/btnNextNewContent"
+                    android:id="@+id/btnFileSharing"
                     xmlns:android="http://schemas.android.com/apk/res/android"
                     android:layout_width="match_parent"
                     android:layout_weight="1"
-                    android:visibility="invisible"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp">
 
@@ -512,13 +511,13 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="@string/wifi_printer"
+                                android:text="@string/file_sharing_via_intent"
                                 android:textSize="20sp" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="@string/printing_text_using_printer_via_wifi"
+                                android:text="@string/create_intent_get_file_from_internal_external_drive_via_intent"
                                 android:textSize="15sp" />
 
                         </LinearLayout>

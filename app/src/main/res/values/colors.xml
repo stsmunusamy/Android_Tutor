@@ -4,6 +4,8 @@
     <color name="colorPrimary">#009688</color>
     <color name="colorPrimaryDark">#016257</color>
     <color name="colorAccent">#1de9b6</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
 
     <color name="underline_default_color">#CCCCCC</color>
     <color name="underline_selected_color">#000</color>

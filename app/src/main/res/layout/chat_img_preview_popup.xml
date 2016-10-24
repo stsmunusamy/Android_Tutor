@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:animationCache="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/chatPreviewToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.Toolbar"
+        app:elevation="4dp"
+        app:navigationIcon="@drawable/ic_arrow_back_white_24dp"
+        app:title="Image Name"
+        app:titleTextColor="@color/white"
+        tools:targetApi="lollipop">
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/black"
+        tools:ignore="InefficientWeight">
+
+        <com.myapps35.tutorial.Utils.ZoomableImageView
+            android:id="@+id/chatPreviewImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/img_btn_play"
+            android:scaleType="centerInside"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/chatPreviewCaptionTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#15ffffff"
+            android:gravity="center"
+            android:maxHeight="100dp"
+            android:padding="18dp"
+            android:singleLine="false"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/chatPreviewCaptionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            android:background="@color/hintColor"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/hintColor"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <EditText
+                android:id="@+id/et_captionTxt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                tools:ignore="InefficientWeight"/>
+
+            <FrameLayout
+                android:id="@+id/sendMessageButton"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:background="@mipmap/img_btn_play"
+                android:padding="20dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

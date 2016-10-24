@@ -21,4 +21,22 @@ public class UtilsClass
         return "";
     }
 
+    public static String validateLocalImagePath(String imgPath)
+    {
+
+        if(isValidString(imgPath))
+        {
+
+            if(imgPath.startsWith("file:///"))
+            {
+                return imgPath.substring(7);
+            } else
+            {
+                return imgPath;
+            }
+        } else
+        {
+            return "";
+        }
+    }
 }
