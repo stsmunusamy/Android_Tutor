@@ -1,4 +1,4 @@
-package com.myapps35.tutorial.Simple_Fingure_Gesture;
+package com.myapps35.tutorial.Simple_Fingure_Gesture.Controller;
 
 import android.app.Activity;
 import android.os.Bundle;

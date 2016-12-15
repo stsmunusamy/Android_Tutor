@@ -1,4 +1,4 @@
-package com.myapps35.tutorial.Utils;
+package com.myapps35.tutorial.ZoomableImagView;
 
 import android.content.Context;
 import android.graphics.Bitmap;

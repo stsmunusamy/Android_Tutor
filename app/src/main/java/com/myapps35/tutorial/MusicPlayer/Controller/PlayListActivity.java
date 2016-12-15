@@ -1,4 +1,4 @@
-package com.myapps35.tutorial.MusicPlayer;
+package com.myapps35.tutorial.MusicPlayer.Controller;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,6 +13,7 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
+import com.myapps35.tutorial.MusicPlayer.Utils.SongsManager;
 import com.myapps35.tutorial.R;
 
 public class PlayListActivity extends ListActivity {

@@ -1,4 +1,4 @@
-package com.myapps35.tutorial.MusicPlayer;
+package com.myapps35.tutorial.MusicPlayer.Utils;
 
 
 public class MusicUtil

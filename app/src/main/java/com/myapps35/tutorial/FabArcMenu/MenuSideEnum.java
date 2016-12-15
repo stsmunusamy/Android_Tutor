@@ -1,4 +1,4 @@
-package com.myapps35.tutorial.Utils.FabArcMenu;
+package com.myapps35.tutorial.FabArcMenu;
 
 /**
  * Created by span-tech on 4/22/2016.

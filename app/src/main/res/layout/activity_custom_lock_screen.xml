@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".LockScreenDemo.CustomLockScreen">
+    tools:context=".LockScreenDemo.Controller.CustomLockScreen">
 
 
     <EditText
@@ -37,7 +37,7 @@
         android:textColor="#fff"
         android:textSize="22sp" />
 
-    <com.myapps35.tutorial.Utils.LockScreenView.MaterialLockView
+    <com.myapps35.tutorial.LockScreenDemo.Utils.MaterialLockView
         xmlns:lockview="http://schemas.android.com/apk/res-auto"
         android:id="@+id/pattern"
         android:layout_width="match_parent"

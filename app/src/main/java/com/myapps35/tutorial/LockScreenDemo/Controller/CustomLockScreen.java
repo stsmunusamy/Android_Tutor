@@ -1,4 +1,4 @@
-package com.myapps35.tutorial.LockScreenDemo;
+package com.myapps35.tutorial.LockScreenDemo.Controller;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 
 import com.myapps35.tutorial.R;
-import com.myapps35.tutorial.Utils.LockScreenView.MaterialLockView;
+import com.myapps35.tutorial.LockScreenDemo.Utils.MaterialLockView;
 
 import java.util.List;
 

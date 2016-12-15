@@ -31,7 +31,7 @@
         android:background="@color/black"
         tools:ignore="InefficientWeight">
 
-        <com.myapps35.tutorial.Utils.ZoomableImageView
+        <com.myapps35.tutorial.ZoomableImagView.ZoomableImageView
             android:id="@+id/chatPreviewImage"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

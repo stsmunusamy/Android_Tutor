@@ -1,4 +1,4 @@
-package com.myapps35.tutorial.MusicPlayer;
+package com.myapps35.tutorial.MusicPlayer.Controller;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -17,6 +17,8 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.myapps35.tutorial.MusicPlayer.Utils.MusicUtil;
+import com.myapps35.tutorial.MusicPlayer.Utils.SongsManager;
 import com.myapps35.tutorial.R;
 
 public class MusicActivity extends AppCompatActivity implements OnCompletionListener, SeekBar.OnSeekBarChangeListener {

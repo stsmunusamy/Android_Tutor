@@ -1,4 +1,4 @@
-package com.myapps35.tutorial.Utils.LockScreenView;
+package com.myapps35.tutorial.LockScreenDemo.Utils;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.myapps35.tutorial.Simple_Fingure_Gesture.SimpleGestureActivity">
+    tools:context="com.myapps35.tutorial.Simple_Fingure_Gesture.Controller.SimpleGestureActivity">
 
     <View
         android:id="@+id/myView"

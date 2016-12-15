@@ -6,23 +6,20 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.FrameLayout;
 
 import com.myapps35.tutorial.BottomSheet.BottomSheetActivity;
 import com.myapps35.tutorial.CustomLoadingAnimation.CustomAnimationLoadingActivity;
 import com.myapps35.tutorial.Facebook_Integration.FacebookSinginActivity;
 import com.myapps35.tutorial.FileSharingViaIntent.FileSharingActivity;
-import com.myapps35.tutorial.LockScreenDemo.CustomLockScreen;
-import com.myapps35.tutorial.MusicPlayer.MusicActivity;
-import com.myapps35.tutorial.R;
-import com.myapps35.tutorial.Simple_Fingure_Gesture.SimpleGestureActivity;
-import com.myapps35.tutorial.Utils.FabArcMenu.ArcMenu;
+import com.myapps35.tutorial.LockScreenDemo.Controller.CustomLockScreen;
+import com.myapps35.tutorial.MusicPlayer.Controller.MusicActivity;
+import com.myapps35.tutorial.Simple_Fingure_Gesture.Controller.SimpleGestureActivity;
+import com.myapps35.tutorial.FabArcMenu.ArcMenu;
 import com.myapps35.tutorial.WifiChat.MainActivity_Wifi_chat;
 
 

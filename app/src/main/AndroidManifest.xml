@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.myapps35.tutorial">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.myapps35.tutorial">
 
     <permission
         android:name="com.myapps35.tutorial.permission.C2D_MESSAGE"
@@ -14,7 +13,6 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
-
     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
@@ -75,22 +73,24 @@
             </intent-filter>
         </activity>
         <activity android:name=".MyApps35Tutors"/>
-        <activity android:name=".MusicPlayer.PlayListActivity"/>
-        <activity android:name=".MusicPlayer.MusicActivity"/>
-        <activity android:name=".LockScreenDemo.CustomLockScreen"/>
+        <activity android:name=".MusicPlayer.Controller.PlayListActivity"/>
+        <activity android:name=".MusicPlayer.Controller.MusicActivity"/>
+        <activity android:name=".LockScreenDemo.Controller.CustomLockScreen"/>
         <activity android:name=".WifiChat.MainActivity_Wifi_chat"/>
         <activity android:name=".WifiChat.ServerActivity"/>
         <activity android:name=".WifiChat.ClientActivity"/>
         <activity android:name=".CustomLoadingAnimation.CustomAnimationLoadingActivity"/>
         <activity android:name=".WifiPrinter.WifiPrinterActivity1"/>
         <activity android:name=".BottomSheet.BottomSheetActivity"/>
-        <activity android:name=".Simple_Fingure_Gesture.SimpleGestureActivity"/>
+        <activity android:name=".Simple_Fingure_Gesture.Controller.SimpleGestureActivity"/>
         <activity android:name=".Facebook_Integration.FacebookSinginActivity"/>
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name"/>
         <activity android:name=".FileSharingViaIntent.FileSharingActivity">
+        </activity>
+        <activity android:name=".RecyclerView.Controller.RecyclerDemoActivity">
         </activity>
     </application>
 

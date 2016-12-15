@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <com.myapps35.tutorial.Utils.CodeInput.CodeInput
+                <com.myapps35.tutorial.CodeInput.CodeInput
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
                     app:hint_text="Pin code"
                     app:codes="4" />
 
-                <com.myapps35.tutorial.Utils.CodeInput.CodeInput
+                <com.myapps35.tutorial.CodeInput.CodeInput
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <com.myapps35.tutorial.Utils.CodeInput.CodeInput
+                <com.myapps35.tutorial.CodeInput.CodeInput
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -95,7 +95,7 @@
                     app:hint_text="Cheat code"
                     app:codes="8" />
 
-                <com.myapps35.tutorial.Utils.CodeInput.CodeInput
+                <com.myapps35.tutorial.CodeInput.CodeInput
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     app:underline_color="#03A9F4"
@@ -532,7 +532,7 @@
 
     </android.support.v4.widget.NestedScrollView>
 
-    <com.myapps35.tutorial.Utils.FabArcMenu.ArcMenu
+    <com.myapps35.tutorial.FabArcMenu.ArcMenu
         android:id="@+id/arcMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -565,6 +565,6 @@
             android:src="@mipmap/tw"
             android:layout_height="wrap_content" />
 
-    </com.myapps35.tutorial.Utils.FabArcMenu.ArcMenu>
+    </com.myapps35.tutorial.FabArcMenu.ArcMenu>
 
 </android.support.design.widget.CoordinatorLayout>

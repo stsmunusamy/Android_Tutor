@@ -1,4 +1,4 @@
-package com.myapps35.tutorial.Utils.CodeInput;
+package com.myapps35.tutorial.CodeInput;
 
 import java.util.Stack;
 

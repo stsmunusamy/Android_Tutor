@@ -1,4 +1,4 @@
-package com.myapps35.tutorial.Utils.CodeInput;
+package com.myapps35.tutorial.CodeInput;
 
 /**
  * @author Adrián García Lomas

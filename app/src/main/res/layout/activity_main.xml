@@ -51,7 +51,7 @@
             android:orientation="vertical"
             android:paddingTop="10dp">
 
-            <com.myapps35.tutorial.Utils.CodeInput.CodeInput
+            <com.myapps35.tutorial.CodeInput.CodeInput
                 android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -62,14 +62,14 @@
                 app:hint_text="Pin code"
                 app:codes="4" />
 
-            <com.myapps35.tutorial.Utils.CodeInput.CodeInput
+            <com.myapps35.tutorial.CodeInput.CodeInput
                 android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:hint_text="Pairing code"
                 android:id="@+id/pairing" />
 
-            <com.myapps35.tutorial.Utils.CodeInput.CodeInput
+            <com.myapps35.tutorial.CodeInput.CodeInput
                 android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
                 app:hint_text="Cheat code"
                 app:codes="8" />
 
-            <com.myapps35.tutorial.Utils.CodeInput.CodeInput
+            <com.myapps35.tutorial.CodeInput.CodeInput
                 android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -479,7 +479,7 @@
 
     </android.support.v4.widget.NestedScrollView>
 
-    <com.myapps35.tutorial.Utils.FabArcMenu.ArcMenu
+    <com.myapps35.tutorial.FabArcMenu.ArcMenu
         android:id="@+id/arcMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -512,6 +512,6 @@
             android:src="@mipmap/tw"
             android:layout_height="wrap_content" />
 
-    </com.myapps35.tutorial.Utils.FabArcMenu.ArcMenu>
+    </com.myapps35.tutorial.FabArcMenu.ArcMenu>
 
 </android.support.design.widget.CoordinatorLayout>
