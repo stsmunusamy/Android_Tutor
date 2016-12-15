@@ -18,6 +18,7 @@ import com.myapps35.tutorial.Facebook_Integration.FacebookSinginActivity;
 import com.myapps35.tutorial.FileSharingViaIntent.FileSharingActivity;
 import com.myapps35.tutorial.LockScreenDemo.Controller.CustomLockScreen;
 import com.myapps35.tutorial.MusicPlayer.Controller.MusicActivity;
+import com.myapps35.tutorial.RecyclerView.Controller.RecyclerDemoActivity;
 import com.myapps35.tutorial.Simple_Fingure_Gesture.Controller.SimpleGestureActivity;
 import com.myapps35.tutorial.FabArcMenu.ArcMenu;
 import com.myapps35.tutorial.WifiChat.MainActivity_Wifi_chat;
@@ -191,6 +192,15 @@ public class MyApps35Tutors extends AppCompatActivity
             public void onClick(View v)
             {
                 startActivity(new Intent(getBaseContext(), FileSharingActivity.class));
+            }
+        });
+
+        ((CardView) findViewById(R.id.btnRecyclerView)).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(getBaseContext(), RecyclerDemoActivity.class));
             }
         });
 
