@@ -34,9 +34,16 @@ public class RecyclerDemoActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycler_demo);
 
+        initDatas();
+
         initialize();
 
         setAdapter();
+    }
+
+    private void initDatas()
+    {
+        mDataList = new ArrayList<>();
     }
 
     private void initialize()
