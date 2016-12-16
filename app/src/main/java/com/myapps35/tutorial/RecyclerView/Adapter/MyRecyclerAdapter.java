@@ -49,7 +49,9 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.Vi
     @Override
     public void onBindViewHolder(ViewHolder holder, int position)
     {
+        holder.lblName.setText(mDataList.get(position));
 
+        holder.lblDescription.setText(mDataList.size() > position+1 ? mDataList.get(position+1) : mDataList.get(0));
     }
 
     /*

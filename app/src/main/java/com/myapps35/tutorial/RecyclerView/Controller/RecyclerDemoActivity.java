@@ -4,9 +4,13 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.Toast;
 
 import com.myapps35.tutorial.R;
 import com.myapps35.tutorial.RecyclerView.Adapter.MyRecyclerAdapter;
+import com.myapps35.tutorial.RecyclerView.Utilites.DividerItemDecoration;
+import com.myapps35.tutorial.RecyclerView.Utilites.RecyclerTouchListener;
 
 import java.util.ArrayList;
 
@@ -24,6 +28,7 @@ public class RecyclerDemoActivity extends Activity
     RecyclerView mRecyclerView;
     RecyclerView.Adapter mRecyclerAdapter;
     RecyclerView.LayoutManager mRecyclerLayoutManager;
+    RecyclerView.ItemDecoration itemDecoration;
 
     ArrayList<String> mDataList;
 
@@ -44,6 +49,18 @@ public class RecyclerDemoActivity extends Activity
     private void initDatas()
     {
         mDataList = new ArrayList<>();
+
+        mDataList.add("One");
+        mDataList.add("Two");
+        mDataList.add("Three");
+        mDataList.add("Four");
+        mDataList.add("Five");
+        mDataList.add("Six");
+        mDataList.add("Seven");
+        mDataList.add("Eight");
+        mDataList.add("Nine");
+        mDataList.add("Ten");
+        mDataList.add("Eleven");
     }
 
     private void initialize()
@@ -72,11 +89,34 @@ public class RecyclerDemoActivity extends Activity
         mRecyclerLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mRecyclerLayoutManager);
 
+
         /*
         *  Step 5:
+        *  Set the List Indicator for recycler view
+        */
+        mRecyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
+
+
+        /*
+        *  Step 6:
         *  Initialize & set the adapter for RecyclerView
         */
         mRecyclerAdapter = new MyRecyclerAdapter(mDataList);
         mRecyclerView.setAdapter(mRecyclerAdapter);
+
+        mRecyclerView.addOnItemTouchListener(new RecyclerTouchListener(getApplicationContext(), mRecyclerView, new RecyclerTouchListener.ClickListener() {
+            @Override
+            public void onClick(View view, int position) {
+
+                Toast.makeText(getApplicationContext(), mDataList.get(position) + " is selected!", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onLongClick(View view, int position) {
+
+                Toast.makeText(RecyclerDemoActivity.this, "Lonk Clicked", Toast.LENGTH_SHORT).show();
+
+            }
+        }));
     }
 }
