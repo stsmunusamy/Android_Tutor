@@ -1,4 +1,4 @@
-package com.myapps35.tutorial;
+package com.myapps35.tutorial.SplashMainIndex.Controller;
 
 import android.app.Application;
 

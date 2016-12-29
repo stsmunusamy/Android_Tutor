@@ -322,21 +322,25 @@ public class MusicActivity extends AppCompatActivity implements OnCompletionList
      * */
     private Runnable mUpdateTimeTask = new Runnable() {
         public void run() {
-            long totalDuration = mp.getDuration();
-            long currentDuration = mp.getCurrentPosition();
 
-            // Displaying Total Duration time
-            songTotalDurationLabel.setText(""+utils.milliSecondsToTimer(totalDuration));
-            // Displaying time completed playing
-            songCurrentDurationLabel.setText(""+utils.milliSecondsToTimer(currentDuration));
+            if(mp != null)
+            {
+                long totalDuration = mp.getDuration();
+                long currentDuration = mp.getCurrentPosition();
 
-            // Updating progress bar
-            int progress = (int)(utils.getProgressPercentage(currentDuration, totalDuration));
-            //Log.d("Progress", ""+progress);
-            songProgressBar.setProgress(progress);
+                // Displaying Total Duration time
+                songTotalDurationLabel.setText("" + utils.milliSecondsToTimer(totalDuration));
+                // Displaying time completed playing
+                songCurrentDurationLabel.setText("" + utils.milliSecondsToTimer(currentDuration));
 
-            // Running this thread after 100 milliseconds
-            mHandler.postDelayed(this, 100);
+                // Updating progress bar
+                int progress = (int) (utils.getProgressPercentage(currentDuration, totalDuration));
+                //Log.d("Progress", ""+progress);
+                songProgressBar.setProgress(progress);
+
+                // Running this thread after 100 milliseconds
+                mHandler.postDelayed(this, 100);
+            }
         }
     };
 
@@ -404,9 +408,11 @@ public class MusicActivity extends AppCompatActivity implements OnCompletionList
     }
 
     @Override
-    public void onDestroy(){
-        super.onDestroy();
+    protected void onPause()
+    {
+        super.onPause();
         mp.release();
-    }
 
+        mHandler.removeCallbacks(mUpdateTimeTask);
+    }
 }

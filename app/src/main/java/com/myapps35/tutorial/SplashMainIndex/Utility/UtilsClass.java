@@ -1,4 +1,4 @@
-package com.myapps35.tutorial;
+package com.myapps35.tutorial.SplashMainIndex.Utility;
 
 /**
  * Created by span-tech on 8/24/2016.

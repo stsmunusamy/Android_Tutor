@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.myapps35.tutorial.R;
-import com.myapps35.tutorial.UtilsClass;
+import com.myapps35.tutorial.SplashMainIndex.Utility.UtilsClass;
 
 import java.io.DataOutputStream;
 import java.net.InetSocketAddress;
