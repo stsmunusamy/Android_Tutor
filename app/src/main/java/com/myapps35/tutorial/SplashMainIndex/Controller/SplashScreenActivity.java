@@ -7,6 +7,9 @@ import android.os.Handler;
 
 import com.myapps35.tutorial.R;
 
+import me.wangyuwei.loadingview.LoadingView;
+
+
 public class SplashScreenActivity extends Activity
 {
 
@@ -15,6 +18,11 @@ public class SplashScreenActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
+
+        LoadingView loading_view = (LoadingView) findViewById(R.id.loading_view);
+
+        loading_view.start();
+
 
         new Handler().postDelayed(new Runnable()
         {
@@ -25,6 +33,7 @@ public class SplashScreenActivity extends Activity
 
                 finish();
             }
-        }, 3000);
+        }, 5000);
+
     }
 }

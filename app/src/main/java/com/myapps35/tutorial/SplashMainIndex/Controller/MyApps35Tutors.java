@@ -1,4 +1,4 @@
-package com.myapps35.tutorial;
+package com.myapps35.tutorial.SplashMainIndex.Controller;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -19,6 +19,7 @@ import com.myapps35.tutorial.Facebook_Integration.FacebookSinginActivity;
 import com.myapps35.tutorial.FileSharingViaIntent.FileSharingActivity;
 import com.myapps35.tutorial.LockScreenDemo.Controller.CustomLockScreen;
 import com.myapps35.tutorial.MusicPlayer.Controller.MusicActivity;
+import com.myapps35.tutorial.R;
 import com.myapps35.tutorial.RecyclerView.Controller.RecyclerDemoActivity;
 import com.myapps35.tutorial.Simple_Fingure_Gesture.Controller.SimpleGestureActivity;
 import com.myapps35.tutorial.FabArcMenu.ArcMenu;
