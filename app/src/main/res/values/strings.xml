@@ -52,7 +52,9 @@
     <string name="method_1">Method 1</string>
     <string name="file_sharing_via_intent">File Sharing Via Intent</string>
     <string name="recycler_view">Recycler View Example</string>
-    <string name="recycler_view_desc">Simple example for to create recycler view with customized view</string>
+    <string name="recycler_view_desc">Simple example for to create recycler view with customized
+        view
+    </string>
     <string name="create_intent_get_file_from_internal_external_drive_via_intent">
         <![CDATA[Create intent & get file from internal/external/drive via intent]]></string>
     <string name="image_from_gallery">Image From Gallery</string>

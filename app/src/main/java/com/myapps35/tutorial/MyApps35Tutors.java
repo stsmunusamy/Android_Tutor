@@ -11,6 +11,7 @@ import android.support.v7.graphics.Palette;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.ListView;
 
 import com.myapps35.tutorial.BottomSheet.BottomSheetActivity;
 import com.myapps35.tutorial.CustomLoadingAnimation.CustomAnimationLoadingActivity;
@@ -26,6 +27,8 @@ import com.myapps35.tutorial.WifiChat.MainActivity_Wifi_chat;
 
 public class MyApps35Tutors extends AppCompatActivity
 {
+
+    private ListView indexList;
 
     private CollapsingToolbarLayout cToolbarLayout;
 
@@ -82,6 +85,7 @@ public class MyApps35Tutors extends AppCompatActivity
 
     private void initialize()
     {
+        indexList = (ListView) findViewById(R.id.indexList);
 
         arcMenu = (ArcMenu) findViewById(R.id.arcMenu);
 

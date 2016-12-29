@@ -62,34 +62,10 @@
                 app:underline_color="#457ad1"
                 app:underline_selected_color="#9e1ace"/>
 
-            <com.myapps35.tutorial.CodeInput.CodeInput
-                android:id="@+id/pairing"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                app:hint_text="Pairing code"/>
-
-            <com.myapps35.tutorial.CodeInput.CodeInput
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                app:codes="8"
-                app:hint_color="#ce1087"
-                app:hint_text="Cheat code"
-                app:text_color="#5c282c"
-                app:underline_color="#d19385"
-                app:underline_selected_color="#ce3a47"/>
-
-            <com.myapps35.tutorial.CodeInput.CodeInput
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                app:codes="10"
-                app:hint_color="#03A9F4"
-                app:hint_text="Hash code"
-                app:text_color="#212121"
-                app:underline_color="#03A9F4"
-                app:underline_selected_color="#3F51B5"/>
+            <ListView
+                android:id="@+id/indexList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
 
             <android.support.v7.widget.CardView
                 xmlns:android="http://schemas.android.com/apk/res/android"
