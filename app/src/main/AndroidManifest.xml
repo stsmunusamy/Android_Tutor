@@ -91,6 +91,14 @@
         <activity android:name=".FileSharingViaIntent.FileSharingActivity"/>
         <activity android:name=".RecyclerView.Controller.RecyclerDemoActivity"/>
         <activity android:name=".FirebaseIntegration.Controller.FirebaseDemoActivity"/>
+        <activity android:name=".ETE8868.PayerRecipientActivity">
+        </activity>
+        <activity android:name=".ETE8868.FederalDetailsActivity">
+        </activity>
+        <activity android:name=".ETE8868.StateDetailsActivity">
+        </activity>
+        <activity android:name=".ETE8868.SummartActivity">
+        </activity>
     </application>
 
 </manifest>
