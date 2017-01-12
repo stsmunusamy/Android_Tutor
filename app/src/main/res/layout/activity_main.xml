@@ -62,6 +62,17 @@
                 app:underline_color="#457ad1"
                 app:underline_selected_color="#9e1ace"/>
 
+            <com.myapps35.tutorial.CodeInput.CodeInput
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:codes="8"
+                app:hint_color="#77ce9d"
+                app:hint_text="Postal Code"
+                app:text_color="#b12eff"
+                app:underline_color="#457ad1"
+                app:underline_selected_color="#9e1ace"/>
+
             <ListView
                 android:id="@+id/indexList"
                 android:layout_width="match_parent"
