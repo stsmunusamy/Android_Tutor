@@ -25,7 +25,7 @@ import com.myapps35.tutorial.Simple_Fingure_Gesture.Controller.SimpleGestureActi
 import com.myapps35.tutorial.FabArcMenu.ArcMenu;
 import com.myapps35.tutorial.WifiChat.MainActivity_Wifi_chat;
 
-
+// first test commit
 public class MyApps35Tutors extends AppCompatActivity
 {
 
