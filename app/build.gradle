@@ -5,7 +5,7 @@ android {
         config {
             keyAlias 'music_collection'
             keyPassword 'music@358'
-            storeFile file('D:/Android WorkSpace/Practice/MusicPlayer/app/src/main/assest/music_collection.jks')
+//            storeFile file('D:/Android WorkSpace/Practice/MusicPlayer/app/src/main/assest/music_collection.jks')
             storePassword 'music@358'
         }
     }
