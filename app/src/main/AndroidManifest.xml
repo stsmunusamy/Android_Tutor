@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.myapps35.tutorial">
 
+    <!-- Test -->
+
     <permission
         android:name="com.myapps35.tutorial.permission.C2D_MESSAGE"
         android:protectionLevel="signature"/>
